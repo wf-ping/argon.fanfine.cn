@@ -3058,17 +3058,17 @@ function argon_tinymce_register_button($buttons){
 	return $buttons;
 }
 function argon_tinymce_add_plugin($plugins){
-	$plugins['codeblock'] = get_bloginfo('template_url') . '/assets/tinymce_assets/tinymce_btns.js';
-	$plugins['label'] = get_bloginfo('template_url') . '/assets/tinymce_assets/tinymce_btns.js';
-	$plugins['checkbox'] = get_bloginfo('template_url') . '/assets/tinymce_assets/tinymce_btns.js';
-	$plugins['progressbar'] = get_bloginfo('template_url') . '/assets/tinymce_assets/tinymce_btns.js';
-	$plugins['alert'] = get_bloginfo('template_url') . '/assets/tinymce_assets/tinymce_btns.js';
-	$plugins['admonition'] = get_bloginfo('template_url') . '/assets/tinymce_assets/tinymce_btns.js';
-	$plugins['collapse'] = get_bloginfo('template_url') . '/assets/tinymce_assets/tinymce_btns.js';
-	$plugins['timeline'] = get_bloginfo('template_url') . '/assets/tinymce_assets/tinymce_btns.js';
-	$plugins['github'] = get_bloginfo('template_url') . '/assets/tinymce_assets/tinymce_btns.js';
-	$plugins['video'] = get_bloginfo('template_url') . '/assets/tinymce_assets/tinymce_btns.js';
-	$plugins['hiddentext'] = get_bloginfo('template_url') . '/assets/tinymce_assets/tinymce_btns.js';
+	$plugins['codeblock'] = 'https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/tinymce_assets/tinymce_btns.js';
+	$plugins['label'] = 'https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/tinymce_assets/tinymce_btns.js';
+	$plugins['checkbox'] = 'https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/tinymce_assets/tinymce_btns.js';
+	$plugins['progressbar'] = 'https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/tinymce_assets/tinymce_btns.js';
+	$plugins['alert'] = 'https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/tinymce_assets/tinymce_btns.js';
+	$plugins['admonition'] = 'https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/tinymce_assets/tinymce_btns.js';
+	$plugins['collapse'] = 'https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/tinymce_assets/tinymce_btns.js';
+	$plugins['timeline'] = 'https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/tinymce_assets/tinymce_btns.js';
+	$plugins['github'] = 'https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/tinymce_assets/tinymce_btns.js';
+	$plugins['video'] = 'https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/tinymce_assets/tinymce_btns.js';
+	$plugins['hiddentext'] = 'https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/tinymce_assets/tinymce_btns.js';
 	return $plugins;
 }
 //主题选项页面

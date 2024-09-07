@@ -238,13 +238,13 @@
 	</script>
 
 	<?php if (get_option('argon_enable_smoothscroll_type') == '2') { /*平滑滚动*/?>
-		<script src="<?php echo $GLOBALS['assets_path']; ?>/assets/vendor/smoothscroll/smoothscroll2.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/vendor/smoothscroll/smoothscroll2.js"></script>
 	<?php }else if (get_option('argon_enable_smoothscroll_type') == '3'){?>
-		<script src="<?php echo $GLOBALS['assets_path']; ?>/assets/vendor/smoothscroll/smoothscroll3.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/vendor/smoothscroll/smoothscroll3.min.js"></script>
 	<?php }else if (get_option('argon_enable_smoothscroll_type') == '1_pulse'){?>
-		<script src="<?php echo $GLOBALS['assets_path']; ?>/assets/vendor/smoothscroll/smoothscroll1_pulse.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/vendor/smoothscroll/smoothscroll1_pulse.js"></script>
 	<?php }else if (get_option('argon_enable_smoothscroll_type') != 'disabled'){?>
-		<script src="<?php echo $GLOBALS['assets_path']; ?>/assets/vendor/smoothscroll/smoothscroll1.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/vendor/smoothscroll/smoothscroll1.js"></script>
 	<?php }?>
 </head>
 

@@ -68,7 +68,7 @@
 		<?php }?>
 
 		<?php if (get_option('argon_enable_code_highlight') == 'true') { /*Highlight.js*/?>
-			<link rel="stylesheet" href="<?php echo $GLOBALS['assets_path']; ?>/assets/vendor/highlight/styles/<?php echo get_option('argon_code_theme') == '' ? 'vs2015' : get_option('argon_code_theme'); ?>.css">
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/vendor/highlight/styles/<?php echo get_option('argon_code_theme') == '' ? 'vs2015' : get_option('argon_code_theme'); ?>.css">
 		<?php }?>
 
 	</div>

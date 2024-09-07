@@ -2,12 +2,12 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-	<link href="<?php bloginfo('template_url'); ?>/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
-	<link href="<?php bloginfo('template_url'); ?>/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<link type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/argon.min.css" rel="stylesheet">
-	<script src="<?php bloginfo('template_url'); ?>/assets/vendor/jquery/jquery.min.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/assets/vendor/bootstrap/bootstrap.min.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/assets/js/argon.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link type="text/css" href="https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/css/argon.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/vendor/jquery/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/wf-ping/argon.fanfine.cn@v1.3.5/assets/js/argon.min.js"></script>
 	<title><?php _e("404 - 找不到页面", "argon"); ?></title>
 	<script>
 		var darkmodeAutoSwitch = "<?php echo (get_option("argon_darkmode_autoswitch") == '' ? 'false' : get_option("argon_darkmode_autoswitch"));?>";
